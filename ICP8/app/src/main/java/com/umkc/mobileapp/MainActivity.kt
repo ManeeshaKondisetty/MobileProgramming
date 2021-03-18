@@ -39,6 +39,9 @@ class MainActivity : AppCompatActivity() {
             if (usernamecheck=="Maneesha" && passwordCheck=="password"){
                 Toast.makeText(this, "Login Successful", Toast.LENGTH_SHORT).show()
                 var navigate:Intent= Intent(this,HomeScreen::class.java)
+                var dataBundle:Bundle= Bundle()
+                dataBundle.putString("alpha", usernamecheck)
+                navigate.putExtras(dataBundle)
                 startActivity(navigate)
             }
             else {

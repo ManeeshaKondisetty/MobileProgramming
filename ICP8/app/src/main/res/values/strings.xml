@@ -8,5 +8,6 @@
     <string name="logout_button">Logout</string>
     <string name="forgot_password">Password Hint</string>
     <string name="sign_up">Sign Up</string>
+    <string name="home_message">Hi </string>
 
 </resources>
