@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
         }
         var hint:TextView=findViewById(R.id.hint)
         hint.setOnClickListener {
-            Toast.makeText(this, "Enter code sent to registered Email ID", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Password", Toast.LENGTH_SHORT).show()
         }
         var signup:TextView=findViewById(R.id.sign_up)
         signup.setOnClickListener {
