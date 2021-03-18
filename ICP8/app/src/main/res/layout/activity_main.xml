@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Password"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#84A1B8"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="50dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:paddingBottom="90dp"
+        android:text="@string/login_heading"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#323C71"
+        android:textColorHighlight="#9C0C0C"
+        android:textColorLink="#FF5722"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#28FFFFFF"
+        android:hint="@string/enter_username"
+        android:padding="8.5dp"
+        android:textColor="#811E1E33"
+        android:textColorLink="#FFFFFF" />
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="#28FFFFFF"
+        android:hint="@string/enter_password"
+        android:padding="8.5dp"
+        android:inputType="textPassword"
+        android:textColor="#811E1E33"
+        android:textColorLink="#FFFFFF" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_button"
+        android:background="@drawable/round_button"
+        android:textColor="#C0C6E8"
+        />
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="15dp">
+
+    <TextView
+        android:id="@+id/hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_weight="1"
+        android:text="@string/forgot_password"
+        android:textAlignment="center"
+        android:textColor="#4C4848" />
+
+    <TextView
+        android:id="@+id/sign_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_weight="1"
+        android:text="@string/sign_up"
+        android:textAlignment="center"
+        android:textColor="#4C4848" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
