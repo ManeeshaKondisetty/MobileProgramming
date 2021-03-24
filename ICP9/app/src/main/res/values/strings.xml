@@ -1,0 +1,25 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Pizzeria</string>
+    <string name="heading_order">Customer Details</string>
+    <string name="summary_heading">Order Summary</string>
+    <string name="name_hint">Enter your name</string>
+    <string name="dear">Dear </string>
+    <string name="summary_toppings">Your Toppings:</string>
+    <string name="summary_button">Go To Order</string>
+    <string name="summary_quantity">Quantity: </string>
+    <string name="summary_price">Total amount: </string>
+    <string name="email_hint">Email</string>
+    <string name="number_hint">Phone number</string>
+    <string name="toppings">Toppings</string>
+    <string name="additional_top">Additional Toppings</string>
+    <string name="cheese">Cheese</string>
+    <string name="chilli">Chilli flakes</string>
+    <string name="oregano">Oregano</string>
+    <string name="quantity">Quantity</string>
+    <string name="initial_quantity_value">1</string>
+    <string name="order">Order now</string>
+    <string name="summary">Summary</string>
+    <string name="too_much_pizza">Please select less than 5 pizzas</string>
+    <string name="no_pizza">Please select at least one pizza</string>
+    <string name="pizza_sumary">Pizza Summary</string>
+</resources>
