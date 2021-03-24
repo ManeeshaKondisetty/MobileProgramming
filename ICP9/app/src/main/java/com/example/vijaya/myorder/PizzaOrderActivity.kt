@@ -269,7 +269,7 @@ class PizzaOrderActivity : AppCompatActivity() {
                 "\n $selectedIngredients \n\n" +
                 "Your Cost: ${priceCalculator()} \n " +
                 "We will send a text message on $countryCode-$phone \n\n" +
-                "Thank you! Enjoy you Pizza hot!"
+                "Thank you! Enjoy your Pizza hot!"
     }
 
     /**
