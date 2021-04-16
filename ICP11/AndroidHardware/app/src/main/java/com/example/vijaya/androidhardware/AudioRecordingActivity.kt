@@ -71,8 +71,9 @@ class AudioRecordingActivity : AppCompatActivity() {
         mRecorder!!.setAudioEncoder(MediaRecorder.AudioEncoder.AMR_NB)
         mRecorder!!.setOutputFile(mFileName)
         mRecorder!!.prepare()
-        // ICP Task3: Write the code to recording the Audio
         mRecorder!!.start()
+
+        // ICP Task3: Write the code to recording the Audio
     }
 
     private fun stopRecording() {
