@@ -142,6 +142,7 @@ public class EmployeeActivity extends AppCompatActivity {
 
             readFromDB();
             Toast.makeText(this, "Deleted user: " + firstname + " " + lastname, Toast.LENGTH_LONG).show();
+            database.close();
             resetViews();
         }
     }
@@ -178,6 +179,7 @@ public class EmployeeActivity extends AppCompatActivity {
             boolean isUpdate = database.update(SampleDBContract.Employee.TABLE_NAME, cv, whereClause, whereArgs) > 0;
             Toast.makeText(this, "Updated Employee details for: " + employeeFirstName, Toast.LENGTH_LONG).show();
             resetViews();
+            database.close();
             readFromDB();
         }
     }

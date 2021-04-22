@@ -135,6 +135,7 @@ public class EmployerActivity extends AppCompatActivity {
             database.delete(table, whereClause, whereArgs);
             Toast.makeText(this, "Deleted company: " + companyName, Toast.LENGTH_LONG).show();
             resetViews();
+            database.close();
             readFromDB();
         }
     }
@@ -160,8 +161,9 @@ public class EmployerActivity extends AppCompatActivity {
             String[] whereArgs = new String[]{String.valueOf(companyName)};
 
             boolean isUpdate = database.update(SampleDBContract.Employer.TABLE_NAME, cv, whereClause, whereArgs) > 0;
-            Toast.makeText(this, "Updated company description: " + companyName, Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Updated company description for: " + companyName, Toast.LENGTH_LONG).show();
             resetViews();
+            database.close();
             readFromDB();
         }
 
