@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/hellotext"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:fontFamily="@font/cambo"
+        android:gravity="center"
+        android:text="@string/hello_all"
+        android:textColor="#2196F3"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/datetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cambo"
+        android:gravity="center"
+        android:text="@string/today_date"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cambo"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#51E8E9F3" />
+
+    <Button
+        android:id="@+id/add_event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#2196F3"
+        android:fontFamily="@font/cambo"
+        android:onClick="insert"
+        android:text="@string/add_event"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:backgroundTint="#2196F3"
+        android:layout_marginTop="15dp"/>
+
+
+
+
+
+</LinearLayout>
